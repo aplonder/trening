@@ -5,21 +5,21 @@ class Samochod {
 
     protected String marka;
     protected String kolor;
-    int maxv;
+    protected int maxv;
 
-    protected void doprzodu() {
+    protected void doPrzodu() {
         System.out.println(marka+ " jedzie do przodu.\n");
     }
 
-    protected void dotylu() {
+    protected void doTylu() {
         System.out.println(marka+ " jedzie do tylu.\n");
     }
 
-    protected void wlewo() {
+    protected void wLewo() {
         System.out.println(marka+ " skreca w lewo.\n");
     }
 
-    protected void wprawo() { System.out.println(marka+ " skreca w prawo.\n"); }
+    protected void wPrawo() { System.out.println(marka+ " skreca w prawo.\n"); }
 
     protected void info(Samochod s) {
         System.out.println("Marka: " +s.marka);

@@ -5,14 +5,12 @@ final class Bagazowy extends Samochod{
 
     private int maxwal;
 
-    void przewoziw() {
+    final void przewoziW() {
 
         System.out.println(marka+ " przewozi maksymalnie " +maxwal);
     }
 
     Bagazowy(String m, String k, int v) {
-        marka = m;
-        kolor = k;
-        maxv = v;
+       super(m, k, v);
     }
 }

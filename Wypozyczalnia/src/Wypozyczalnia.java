@@ -20,11 +20,19 @@ public class Wypozyczalnia {
         Ciezarowy man = new Ciezarowy("man", "bialy", 160);
         man.info(man);
 
-        honda.doprzodu();
-        man.wprawo();
+        honda.doPrzodu();
+        man.wPrawo();
 
         honda.ile(4);
-        honda.przewozio();
+        honda.przewoziO();
+
+        DuzyCiezarowy daf = new DuzyCiezarowy("daf", "niebieski", 210);
+        daf.info(daf);
+
+        Osobowy domyslny = new Osobowy();
+        domyslny.info(domyslny);
+
+        transporter.przewoziW();
 
     }
 }

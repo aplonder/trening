@@ -5,19 +5,22 @@
 
     private int maxosob;
 
-     void przewozio() {
+    final void przewoziO() {
 
         System.out.println(marka+ " przewozi maksymalnie " +maxosob);
     }
 
-    void ile(int i) {
+    final void ile(int i) {
          maxosob=i;
 
     }
 
+    Osobowy() {};
+
     Osobowy(String m, String k, int v) {
-        marka = m;
-        kolor = k;
-        maxv = v;
+        super(m, k, v);
+
+
+
     }
 }

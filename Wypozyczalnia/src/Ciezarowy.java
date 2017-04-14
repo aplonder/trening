@@ -5,14 +5,12 @@ class Ciezarowy extends Samochod {
 
     protected int maxlad;
 
-    void przewozil() {
+    void przewoziL() {
 
         System.out.println(marka+ " przewozi maksymalnie " +maxlad);
     }
 
     Ciezarowy(String m, String k, int v) {
-        marka = m;
-        kolor = k;
-        maxv = v;
+        super(m, k, v);
     }
 }
