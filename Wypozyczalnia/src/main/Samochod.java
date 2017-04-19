@@ -5,15 +5,20 @@ package main;
  */
 public interface Samochod {
 
-    String getMarka();
-
-    String getKolor();
-
-    int getMaxv();
-
-    int getPredkosc();
-
     int getCounter();
 
+    String getMarka();
+    String getKolor();
+    int getMaxV();
+    int getPrzyspieszenie();
 
+    int getPredkosc();
+    void setPredkosc(int predkosc);
+
+    String getStan();
+    int setStan(int stan);
+
+    int przyspiesz();
+
+    String cecha();
 }

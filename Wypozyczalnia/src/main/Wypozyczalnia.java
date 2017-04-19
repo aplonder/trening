@@ -15,29 +15,67 @@ public class Wypozyczalnia {
         main.impl.AbstractSamochod nowy = new main.impl.AbstractSamochod("renia", "rozowa", 120);
         nowy.info(nowy);
         */
-        Osobowy honda = new Osobowy("honda", "czarna", 240);
 
-        System.out.println(honda);
+        Osobowy honda = new Osobowy("honda", "czarna", 240, 30, 5);
+        Osobowy BMW = new Osobowy("BMW", "czerwony", 250, 35, 5);
+        Bagazowy VW = new Bagazowy("VW", "srebrny", 200, 20, 7);
+        Bagazowy transit = new Bagazowy("transit", "niebieski", 130, 15, 12);
+        Ciezarowy man = new Ciezarowy("man", "bialy", 160, 10, 100);
+        Ciezarowy DAF = new Ciezarowy("DAF", "szary", 170, 5, 130);
 
-        Bagazowy transporter = new Bagazowy("VW", "srebrny", 200);
+        /*
 
-        Ciezarowy man = new Ciezarowy("man", "bialy", 160);
-
-        honda.doPrzodu();
-        man.wPrawo();
         System.out.println(honda.getCounter());
+
         honda.ile(4);
-        honda.przewoziO();
+        honda.przewoziMaxOsob();
 
         DuzyCiezarowy daf = new DuzyCiezarowy("daf", "niebieski", 210);
 
-        transporter.przewoziW();
+        VW.przewoziMaxWalizek();
         System.out.println(man);
         System.out.println(honda);
 
         //System.out.println(main.impl.AbstractSamochod.getCounter());
 
         System.out.println(man.getCounter());
+        */
+
+        System.out.print(honda);
+        System.out.print(VW);
+        System.out.println(man);
+
+        System.out.print(honda.cecha());
+        System.out.print(VW.cecha());
+        System.out.println(man.cecha());
+
+        System.out.println(honda.getKolor());
+
+        System.out.println(honda.przyspiesz());         //tak dla sprawdzenia ze obie funkcje zwracaja ta sama wartosc
+        System.out.println(honda.przyspiesz());
+        System.out.println(honda.getPredkosc());
+
+        honda.setPredkosc(100);
+        BMW.setPredkosc(50);
+        System.out.println(honda.getPredkosc());
+        System.out.println(BMW.getPredkosc());
+
+        honda.setStan(5);
+        BMW.setStan(3);
+        System.out.println(honda.getStan());
+        System.out.println(honda.setStan(4));
+        System.out.println(honda.getStan());
+
+        VW.setStan(6);
+        transit.setStan(8);
+        System.out.println(VW.getStan());
+        System.out.println(transit.getStan());
+
+        man.setStan(80);
+        DAF.setStan(110);
+        System.out.println(man.getStan());
+        System.out.println(DAF.getStan());
+
 
 
 

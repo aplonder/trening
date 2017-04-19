@@ -1,27 +1,29 @@
 package main.impl;
 
-import main.impl.AbstractSamochod;
-
 /**
  * Created by root on 10.04.17.
  */
 public class Ciezarowy extends AbstractSamochod {
 
-    protected int maxlad;
-    protected int przyspieszenie;
+    protected int maxLadunek;
+    protected int obecnieLadunek;
 
-
-    public int przyspiesz () {
-        return predkosc + przyspieszenie;
+    public Ciezarowy(String marka, String kolor, int maxV, int przyspieszenie, int maxLadunek) {
+        super(marka, kolor, maxV, przyspieszenie);
+        this.maxLadunek = maxLadunek;
     }
 
-    public void przewoziL() {
-
-        System.out.println(marka+ " przewozi maksymalnie " +maxlad);
+    @Override
+    public String getStan() {
+        return marka + " obecnie przewozi " + obecnieLadunek + " ton ladunku";
+    }
+    @Override
+    public int setStan(int stan) {
+        this.obecnieLadunek = stan;
+        return obecnieLadunek;
     }
 
-    public Ciezarowy(String m, String k, int v)
-    {
-        super(m, k, v);
+    public String cecha() {
+        return marka + " przewozi maksymalnie " + maxLadunek + " ton ladunku.\n";
     }
 }

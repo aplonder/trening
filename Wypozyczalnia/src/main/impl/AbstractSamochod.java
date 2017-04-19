@@ -7,65 +7,64 @@ import main.Samochod;
  */
 abstract class AbstractSamochod implements Samochod {
 
-    protected String marka;
-    protected String kolor;
-    protected int maxv;
-    protected int predkosc;
-
     private static int counter=0;
 
-    public AbstractSamochod(String marka, String kolor, int maxv) {
+    protected String marka;
+    protected String kolor;
+    protected int maxV;
+    protected int przyspieszenie;
+    protected int predkosc;         // domyslnie ustawiana na zero
+
+    public AbstractSamochod(String marka, String kolor, int maxV, int przyspieszenie) {
         this.marka = marka;
         this.kolor = kolor;
-        this.maxv = maxv;
+        this.maxV = maxV;
+        this.przyspieszenie = przyspieszenie;
         counter=counter+1;
-    }
-
-    public String getMarka() {
-        return marka;
-    }
-
-    public String getKolor() {
-        return kolor;
-    }
-
-    public int getMaxv() {
-        return maxv;
-    }
-
-    public int getPredkosc() {
-        return predkosc;
     }
 
     public int getCounter() {
         return counter;
     }
 
-    public void doPrzodu() {
-        System.out.println(marka+ " jedzie do przodu.\n");
+    public String getMarka() {
+        return marka;
+    }
+    public String getKolor() {
+        return kolor;
+    }
+    public int getMaxV() {
+        return maxV;
+    }
+    public int getPrzyspieszenie() {
+        return przyspieszenie;
     }
 
-    public void doTylu() {
-        System.out.println(marka+ " jedzie do tylu.\n");
+
+    public int getPredkosc() {
+        return predkosc;
+    }
+    public void setPredkosc(int predkosc) {
+        this.predkosc = predkosc;
     }
 
-    public void wLewo() {
-        System.out.println(marka+ " skreca w lewo.\n");
+    @Override
+    public abstract String getStan();
+    @Override
+    public abstract int setStan(int stan);
+
+    public int przyspiesz () {
+        predkosc = predkosc + przyspieszenie;
+        return predkosc;
     }
 
-    public void wPrawo() { System.out.println(marka+ " skreca w prawo.\n"); }
-
-
-    public abstract int przyspiesz();
-
-
-
-
+    public abstract String cecha();
 
     @Override
     public String toString() {
         return "Marka: " + marka +
-                " Kolor: " + kolor +
-                " Maksymalna predkosc: " + maxv + "\n" ;
+                ", Kolor: " + kolor +
+                ", Maksymalna predkosc: " + maxV +
+                ", Obecna prędkosc wynosi: " + predkosc +"\n" ;
     }
 }

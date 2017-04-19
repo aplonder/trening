@@ -5,7 +5,7 @@ package main.impl;
  */
 public class DuzyCiezarowy extends Ciezarowy {
 
-    public DuzyCiezarowy( String m, String k, int v) {
-        super(m, k, v);
+    public DuzyCiezarowy( String marka, String kolor, int maxV, int przyspieszenie, int maxLadunek) {
+        super(marka, kolor, maxV, przyspieszenie, maxLadunek);
     }
 }

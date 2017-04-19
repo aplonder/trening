@@ -1,41 +1,47 @@
 package main.impl;
 
-import main.impl.AbstractSamochod;
-
 /**
  * Created by root on 09.04.17.
  */
 public final class Osobowy extends AbstractSamochod {
 
-    private int maxosob;
-    private int przyspieszenie;
+    private int maxOsob;
+    private int obecnieOsob;
 
-    public final void przewoziO() {
-
-        System.out.println(marka+ " przewozi maksymalnie " +maxosob);
+    public Osobowy(String marka, String kolor, int maxV, int przyspieszenie, int maxOsob) {
+        super(marka, kolor, maxV, przyspieszenie);
+        this.maxOsob = maxOsob;
     }
 
-    public final void ile(int i) {
-         maxosob=i;
-
+    @Override
+    public String getStan() {
+        return marka + " obecnie przewozi " + obecnieOsob + " osob";
+    }
+    @Override
+    public int setStan(int stan) {
+        this.obecnieOsob = stan;
+        return stan;                //wyjasnic - zwracana inna zmienna niz w klasie bagazowy, dzialanie poprawne
     }
 
-     public int przyspiesz () {
-        return predkosc+przyspieszenie;
-
-    }
-
-
-
-    public Osobowy(String m, String k, int v) {
-        super(m, k, v);
-
-
-
+    public String cecha() {
+        return marka + " przewozi maksymalnie " + maxOsob + " osob.\n";
     }
 
     @Override
     public String toString() {
-        return super.toString() + " maksymalna ilosc osob: " +maxosob ;
+        return super.toString();
     }
+
+/*
+    public final void przewoziMaxOsob() {
+        System.out.println(marka+ " przewozi maksymalnie " + maxOsob);
+    }
+
+    public void setObecnieOsob(int obecnieOsob) {
+        this.obecnieOsob = obecnieOsob;
+    }
+*/
+
+
 }
+
