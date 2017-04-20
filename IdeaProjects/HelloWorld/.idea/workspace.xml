@@ -16,24 +16,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/Osobowy.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/Samochod.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/Wypozyczalnia.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/ZabawyStringami.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/ZabawyStringami.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/Samochod.class" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/Samochod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/Wypozyczalnia.class" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/Wypozyczalnia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/impl/AbstractSamochod.class" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/impl/AbstractSamochod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/impl/Bagazowy.class" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/impl/Bagazowy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/impl/Ciezarowy.class" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/impl/Ciezarowy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/impl/DuzyCiezarowy.class" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/impl/DuzyCiezarowy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/impl/Osobowy.class" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/main/impl/Osobowy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ZabawyStringami.java" afterPath="$PROJECT_DIR$/src/ZabawyStringami.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/Samochod.java" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/Samochod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/Wypozyczalnia.java" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/Wypozyczalnia.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/impl/AbstractSamochod.java" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/impl/AbstractSamochod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/impl/Bagazowy.java" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/impl/Bagazowy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/impl/Ciezarowy.java" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/impl/Ciezarowy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/impl/DuzyCiezarowy.java" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/impl/DuzyCiezarowy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/impl/Osobowy.java" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/src/main/impl/Osobowy.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,8 +75,8 @@
       <file leaf-file-name="ZabawyStringami.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ZabawyStringami.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -553,6 +537,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -563,7 +548,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33859095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33859095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1015,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ZabawyStringami.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
           <folding />
         </state>
       </provider>

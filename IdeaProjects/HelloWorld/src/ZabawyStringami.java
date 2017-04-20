@@ -23,21 +23,28 @@ public class ZabawyStringami {
         return obrucony = new StringBuilder(s).reverse().toString();
     };
 
-    static String sprawdzPalidrom(String st) {
-        String wynik = "zaraz bedzie";
+    static void sprawdzPalidrom(String st) {
+        // String wynik = "zaraz bedzie";
+        boolean wynikBool = false;
         for(int i = 0; i< st.length()/2; i++ ) {
             System.out.println("porownujemy ("+ (st.charAt(i) ) +") z ("+ (st.charAt(st.length()-1 -i)) +")");
 
             if ((st.charAt(i) ) == (st.charAt(st.length()-1 -i)))
-                wynik = "TAK :)";
-            else
-            {
-                wynik = "NIE :(";
+                //wynik = "TAK :)";
+                wynikBool = true;
+            else {
+                //wynik = "NIE :(";
+                wynikBool = false;
                 break;
             }
         }
-        System.out.println("Czy słowo (" + st + ") jest palindromem? " + wynik );
-        return wynik;
+
+        if (wynikBool)
+            System.out.println("Wyraz (" + st + ") JEST palidromem :) ");
+        else
+            System.out.println("Wyraz (" + st + ") NIE jest palidromem :( ");
+        //System.out.println("Czy słowo (" + st + ") jest palindromem? " + wynik );
+        //return wynik;
     }
 
     public static void main(String[] args) {
@@ -56,6 +63,7 @@ public class ZabawyStringami {
 
         sprawdzPalidrom("tyryt");                   //sprawdzenie ustalonego stringa (print umieszczono juz w metodzie)
         sprawdzPalidrom(wprowodz());                   //sprawdzenie tekstu z klawiatury (print umieszczono juz w metodzie)
+
 
 
 /*        System.out.print("Podaj tekst: ");

@@ -17,23 +17,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Samochod.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Wypozyczalnia.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProjects/HelloWorld/out/production/HelloWorld/ZabawyStringami.class" afterPath="$PROJECT_DIR$/../IdeaProjects/HelloWorld/out/production/HelloWorld/ZabawyStringami.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/Samochod.class" afterPath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/Samochod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/Wypozyczalnia.class" afterPath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/Wypozyczalnia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/impl/AbstractSamochod.class" afterPath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/impl/AbstractSamochod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/impl/Bagazowy.class" afterPath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/impl/Bagazowy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/impl/Ciezarowy.class" afterPath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/impl/Ciezarowy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/impl/DuzyCiezarowy.class" afterPath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/impl/DuzyCiezarowy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/impl/Osobowy.class" afterPath="$PROJECT_DIR$/out/production/Wypozyczalnia/main/impl/Osobowy.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProjects/HelloWorld/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../IdeaProjects/HelloWorld/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IdeaProjects/HelloWorld/src/ZabawyStringami.java" afterPath="$PROJECT_DIR$/../IdeaProjects/HelloWorld/src/ZabawyStringami.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Samochod.java" afterPath="$PROJECT_DIR$/src/main/Samochod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Wypozyczalnia.java" afterPath="$PROJECT_DIR$/src/main/Wypozyczalnia.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/impl/AbstractSamochod.java" afterPath="$PROJECT_DIR$/src/main/impl/AbstractSamochod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/impl/Bagazowy.java" afterPath="$PROJECT_DIR$/src/main/impl/Bagazowy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/impl/Ciezarowy.java" afterPath="$PROJECT_DIR$/src/main/impl/Ciezarowy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/impl/DuzyCiezarowy.java" afterPath="$PROJECT_DIR$/src/main/impl/DuzyCiezarowy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/impl/Osobowy.java" afterPath="$PROJECT_DIR$/src/main/impl/Osobowy.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +57,8 @@
       <file leaf-file-name="AbstractSamochod.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/impl/AbstractSamochod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+            <state relative-caret-position="420">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="method#przyspiesz#0;class#AbstractSamochod#0" expanded="false" />
               </folding>
@@ -1125,8 +1110,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/impl/AbstractSamochod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        <state relative-caret-position="420">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="method#przyspiesz#0;class#AbstractSamochod#0" expanded="false" />
           </folding>
