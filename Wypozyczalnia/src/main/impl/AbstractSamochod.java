@@ -5,7 +5,7 @@ import main.Samochod;
 /**
  * Created by root on 09.04.17.
  */
-abstract class AbstractSamochod implements Samochod {
+public abstract class AbstractSamochod implements Samochod {
 
     private static int counter=0;
 
@@ -15,11 +15,15 @@ abstract class AbstractSamochod implements Samochod {
     protected int przyspieszenie;
     protected int predkosc;         // domyslnie ustawiana na zero
 
-    public AbstractSamochod(String marka, String kolor, int maxV, int przyspieszenie) {
+    public enum rodzajPaliwa {PB, ON, LPG}
+    public rodzajPaliwa paliwo;
+
+    public AbstractSamochod(String marka, String kolor, int maxV, int przyspieszenie, rodzajPaliwa paliwo) {
         this.marka = marka;
         this.kolor = kolor;
         this.maxV = maxV;
         this.przyspieszenie = przyspieszenie;
+        this.paliwo = paliwo;
         counter=counter+1;
     }
 
@@ -65,6 +69,7 @@ abstract class AbstractSamochod implements Samochod {
         return "Marka: " + marka +
                 ", Kolor: " + kolor +
                 ", Maksymalna predkosc: " + maxV +
+                ", Rodzaj paliwa: " + paliwo +
                 ", Obecna prędkosc wynosi: " + predkosc +"\n" ;
     }
 }

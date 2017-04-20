@@ -8,8 +8,8 @@ public final class Osobowy extends AbstractSamochod {
     private int maxOsob;
     private int obecnieOsob;
 
-    public Osobowy(String marka, String kolor, int maxV, int przyspieszenie, int maxOsob) {
-        super(marka, kolor, maxV, przyspieszenie);
+    public Osobowy(String marka, String kolor, int maxV, int przyspieszenie, rodzajPaliwa paliwo, int maxOsob) {
+        super(marka, kolor, maxV, przyspieszenie, paliwo);
         this.maxOsob = maxOsob;
     }
 
