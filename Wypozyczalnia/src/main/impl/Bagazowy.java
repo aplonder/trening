@@ -8,7 +8,7 @@ public final class Bagazowy extends AbstractSamochod {
     private int maxWalizek;
     private int obecnieWalizek;
 
-    public Bagazowy(String marka, String kolor, int maxV, int przyspieszenie, rodzajPaliwa paliwo, int maxWalizek) {
+    public Bagazowy(String marka, String kolor, int maxV, int przyspieszenie, RodzajPaliwa paliwo, int maxWalizek) {
         super(marka, kolor, maxV, przyspieszenie, paliwo);
         this.maxWalizek = maxWalizek;
     }

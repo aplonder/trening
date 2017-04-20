@@ -1,5 +1,7 @@
 package main;
 
+import main.impl.AbstractSamochod;
+
 /**
  * Created by root on 14.04.17.
  */
@@ -9,7 +11,7 @@ public interface Samochod {
 
     String getMarka();
     String getKolor();
-    int getMaxV();
+    int getPredkoscMaksymalna();
     int getPrzyspieszenie();
 
     int getPredkosc();

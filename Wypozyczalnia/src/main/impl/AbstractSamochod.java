@@ -11,17 +11,17 @@ public abstract class AbstractSamochod implements Samochod {
 
     protected String marka;
     protected String kolor;
-    protected int maxV;
+    protected int predkoscMaksymalna;
     protected int przyspieszenie;
     protected int predkosc;         // domyslnie ustawiana na zero
 
-    public enum rodzajPaliwa {PB, ON, LPG}
-    public rodzajPaliwa paliwo;
+    public enum RodzajPaliwa {PB, ON, LPG}          //enumy z duzej litery, dodac arg "nazwa" do enum
+    public RodzajPaliwa paliwo;
 
-    public AbstractSamochod(String marka, String kolor, int maxV, int przyspieszenie, rodzajPaliwa paliwo) {
+    public AbstractSamochod(String marka, String kolor, int predkoszMaksymalna, int przyspieszenie, RodzajPaliwa paliwo) {
         this.marka = marka;
         this.kolor = kolor;
-        this.maxV = maxV;
+        this.predkoscMaksymalna = predkoszMaksymalna;
         this.przyspieszenie = przyspieszenie;
         this.paliwo = paliwo;
         counter=counter+1;
@@ -37,8 +37,8 @@ public abstract class AbstractSamochod implements Samochod {
     public String getKolor() {
         return kolor;
     }
-    public int getMaxV() {
-        return maxV;
+    public int getPredkoscMaksymalna() {
+        return predkoscMaksymalna;
     }
     public int getPrzyspieszenie() {
         return przyspieszenie;
@@ -68,7 +68,7 @@ public abstract class AbstractSamochod implements Samochod {
     public String toString() {
         return "Marka: " + marka +
                 ", Kolor: " + kolor +
-                ", Maksymalna predkosc: " + maxV +
+                ", Maksymalna predkosc: " + predkoscMaksymalna +
                 ", Rodzaj paliwa: " + paliwo +
                 ", Obecna prędkosc wynosi: " + predkosc +"\n" ;
     }

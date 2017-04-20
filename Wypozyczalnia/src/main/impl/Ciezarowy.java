@@ -8,7 +8,7 @@ public class Ciezarowy extends AbstractSamochod {
     protected int maxLadunek;
     protected int obecnieLadunek;
 
-    public Ciezarowy(String marka, String kolor, int maxV, int przyspieszenie, rodzajPaliwa paliwo, int maxLadunek) {
+    public Ciezarowy(String marka, String kolor, int maxV, int przyspieszenie, RodzajPaliwa paliwo, int maxLadunek) {
         super(marka, kolor, maxV, przyspieszenie, paliwo);
         this.maxLadunek = maxLadunek;
     }

@@ -16,12 +16,12 @@ public class Wypozyczalnia {
         nowy.info(nowy);
         */
 
-        Osobowy honda = new Osobowy("honda", "czarna", 240, 30, AbstractSamochod.rodzajPaliwa.PB, 5);
-        Osobowy BMW = new Osobowy("BMW", "czerwony", 250, 35, AbstractSamochod.rodzajPaliwa.PB, 5);
-        Bagazowy VW = new Bagazowy("VW", "srebrny", 200, 20, AbstractSamochod.rodzajPaliwa.LPG, 7);
-        Bagazowy transit = new Bagazowy("transit", "niebieski", 130, 15, AbstractSamochod.rodzajPaliwa.LPG, 12);
-        Ciezarowy man = new Ciezarowy("man", "bialy", 160, 10, AbstractSamochod.rodzajPaliwa.ON, 100);
-        Ciezarowy DAF = new Ciezarowy("DAF", "szary", 170, 5, AbstractSamochod.rodzajPaliwa.ON, 130);
+        Osobowy honda = new Osobowy("honda", "czarna", 240, 30, AbstractSamochod.RodzajPaliwa.PB, 5);
+        Osobowy BMW = new Osobowy("BMW", "czerwony", 250, 35, AbstractSamochod.RodzajPaliwa.PB, 5);
+        Bagazowy VW = new Bagazowy("VW", "srebrny", 200, 20, AbstractSamochod.RodzajPaliwa.LPG, 7);
+        Bagazowy transit = new Bagazowy("transit", "niebieski", 130, 15, AbstractSamochod.RodzajPaliwa.LPG, 12);
+        Ciezarowy man = new Ciezarowy("man", "bialy", 160, 10, AbstractSamochod.RodzajPaliwa.ON, 100);
+        Ciezarowy DAF = new Ciezarowy("DAF", "szary", 170, 5, AbstractSamochod.RodzajPaliwa.ON, 130);
 
         /*
 
