@@ -58,8 +58,9 @@ public class Skoczek {
         System.out.println();
 
         for(Skoczek a : skoczki) {
-            // System.out.println(skoczki.get(a).getId());      //w for-each nie mozna stosowac .get() itp???
-            System.out.println(a);
+            System.out.print(a.getId());      //w for-each nie mozna stosowac .get() ???
+            System.out.println(" "+ a);
+            a.skacze();
         }
 
 

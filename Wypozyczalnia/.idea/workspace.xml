@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49826238-dc24-4d84-88c4-83a85ea9bd2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Kolekcjoner.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../src/Skoczek.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Kolekcjoner.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Wypozyczalnia/Bagazowy.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Wypozyczalnia/Ciezarowy.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Wypozyczalnia/DuzyCiezarowy.class" afterPath="" />
@@ -23,6 +17,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Osobowy.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Samochod.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Wypozyczalnia.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../out/production/Kolekcjoner/Skoczek.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/Skoczek.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +37,7 @@
       <file leaf-file-name="Wypozyczalnia.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Wypozyczalnia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="20">
               <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding />
             </state>
@@ -95,12 +91,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-              <folding>
-                <element signature="e#440#441#0" expanded="false" />
-                <element signature="e#525#526#0" expanded="false" />
-                <element signature="e#676#677#0" expanded="false" />
-                <element signature="e#764#765#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,9 +160,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1615" />
-    <option name="height" value="1054" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -189,8 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,7 +234,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,7 +244,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProjects/HelloWorld" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kolekcjoner" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/andrew/Dokumenty/trening/Wypozyczalnia/src/main/impl/SamochodFactory.java" />
   </component>
   <component name="RunDashboard">
@@ -541,7 +532,8 @@
     <option name="totallyTimeSpent" value="24940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1615" height="1054" extended-state="6" />
+    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -645,12 +637,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#764#765#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -698,12 +685,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#764#765#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -761,12 +743,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#764#765#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -826,12 +803,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#764#765#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,12 +853,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#764#765#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -928,12 +895,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#764#765#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -976,12 +938,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding>
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#764#765#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,7 +986,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Wypozyczalnia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="20">
           <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
