@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f193edb1-c0ae-4bfe-8b04-e4ded60e3205" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Kolekcjoner/.idea/kotlinc.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../Kolekcjoner.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/Bagazowy.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/Ciezarowy.class" afterPath="" />
@@ -21,9 +20,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../out/production/Kolekcjoner/Skoczek.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/Skoczek.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Kolekcjoner/out/production/Kolekcjoner/Skoczek.class" afterPath="$PROJECT_DIR$/../../Kolekcjoner/out/production/Kolekcjoner/Skoczek.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Kolekcjoner/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Kolekcjoner/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Kolekcjoner/src/Skoczek.java" afterPath="$PROJECT_DIR$/../../Kolekcjoner/src/Skoczek.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
