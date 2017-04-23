@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by andrew on 21.04.17.
@@ -46,7 +47,7 @@ public class Skoczek {
         sk3.skacze();
 */
 
-        ArrayList<Skoczek> skoczki = new ArrayList<Skoczek>();
+        List<Skoczek> skoczki = new ArrayList<>();
         for(int i=0; i<5; i++)
             skoczki.add(new Skoczek());
 
@@ -61,7 +62,7 @@ public class Skoczek {
             System.out.print(a.getId());
             System.out.println(" "+ a);
             a.skacze();
-            // skoczki.get(a);                  //w for-each nie mozna stosowac .get() ??? nie przyjmuje "a"
+            //skoczki.get(a);                  //w for-each nie mozna stosowac .get() ??? nie przyjmuje "a"
         }
 
 

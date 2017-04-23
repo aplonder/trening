@@ -20,7 +20,7 @@ public class ZabawyStringami {
 
     static String obroc(String s){
         // String obrucony = new StringBuilder(s).reverse().toString();
-        return obrucony = new StringBuilder(s).reverse().toString();
+        return new StringBuilder(s).reverse().toString();
     };
 
     static void sprawdzPalidrom(String st) {
@@ -55,14 +55,16 @@ public class ZabawyStringami {
 
         System.out.println(wprowodz());                 //sprawdzenie skutecznosci wprowadzania tekstu
 
-        obroc("pralka");                                //wypisanie reczne z zastosowaniem obracania
-        System.out.println(obrucony);
+        String obr = obroc("pralka");           //prawidlowa forma - przerobic reszte!!!!!
+        System.out.println(obr);
 
         System.out.println(obroc("telefon"));           //obrocenie ustalonego stringa
         System.out.println(obroc(wprowodz()));             //obrocenie tekstu z klawiatury
 
-        sprawdzPalidrom("tyryt");                   //sprawdzenie ustalonego stringa (print umieszczono juz w metodzie)
-        sprawdzPalidrom(wprowodz());                   //sprawdzenie tekstu z klawiatury (print umieszczono juz w metodzie)
+        sprawdzPalidrom("tyryt");
+        String input = wprowodz();
+        //sprawdzenie ustalonego stringa (print umieszczono juz w metodzie)
+        sprawdzPalidrom(input);                   //sprawdzenie tekstu z klawiatury (print umieszczono juz w metodzie)
 
 
 

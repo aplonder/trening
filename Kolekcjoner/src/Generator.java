@@ -18,6 +18,30 @@ public class Generator {
         return collection;
     }
 
+    public static boolean usunZListy(List<String> strings, String doUsuniecia) {
+        Iterator<String> stringIterator = strings.iterator();
+        stringIterator.hasNext();
+        stringIterator.next();
+        stringIterator.remove();
+
+
+        return false;
+    }
+
+    public static boolean usun(List<String> strings, String doUsuniecia) {
+        Iterator<String> stringIterator = strings.iterator();
+        while (stringIterator.hasNext()) {
+            //System.out.println(stringIterator.next());
+            if (doUsuniecia == stringIterator.next()) {
+                stringIterator.remove();
+
+                return true;
+            }
+        }
+            return false;
+
+
+    }
 
 
     public static String next() {
@@ -41,11 +65,22 @@ public class Generator {
         System.out.println(getCounter());
 */
 
-        System.out.println(fill(new ArrayList<String>()));
-        System.out.println(fill(new LinkedList<String>()));
-        System.out.println(fill(new HashSet<String>()));
-        System.out.println(fill(new LinkedHashSet<String>()));
-        System.out.println(fill(new TreeSet<String>()));
+        List<String> lista = new ArrayList<>();
+        lista.add("ala");
+        lista.add("ma");
+        lista.add("kota");
+        //System.out.println(usunZListy(lista, "ala"));
+        //System.out.println(usunZListy(lista, "ala"));
+
+        System.out.println(usun(lista, "ma"));
+        System.out.println(usun(lista, "ma"));
+
+
+//        System.out.println(fill(new ArrayList<String>()));
+//        System.out.println(fill(new LinkedList<String>()));
+//        System.out.println(fill(new HashSet<String>()));
+//        System.out.println(fill(new LinkedHashSet<String>()));
+//        System.out.println(fill(new TreeSet<String>()));
 
 
     }
