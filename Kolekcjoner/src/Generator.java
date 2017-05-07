@@ -18,6 +18,20 @@ public class Generator {
         return collection;
     }
 
+    public static String next() {
+        //String imie ="";
+        switch (counter) {
+            case 0 : imie = "Edyta"; counter++; break;
+            case 1 : imie = "Ania" ; counter++; break;
+            case 2 : imie = "Marta" ; counter++; break;
+            case 3 : imie = "Kasia" ; counter++; break;
+            case 4 : imie = "Agnieszka" ; counter=0; break;
+        }
+        return counter + " " + imie;
+    }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
     public static boolean usunZListy(List<String> strings, String doUsuniecia) {
         Iterator<String> stringIterator = strings.iterator();
         stringIterator.hasNext();
@@ -41,19 +55,9 @@ public class Generator {
             return false;
 
 
-    }
 
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
-    public static String next() {
-        //String imie ="";
-        switch (counter) {
-            case 0 : imie = "Edyta"; counter++; break;
-            case 1 : imie = "Ania" ; counter++; break;
-            case 2 : imie = "Marta" ; counter++; break;
-            case 3 : imie = "Kasia" ; counter++; break;
-            case 4 : imie = "Agnieszka" ; counter=0; break;
-        }
-        return counter + " " + imie;
     }
 
 
@@ -63,7 +67,7 @@ public class Generator {
 
         System.out.println(next());
         System.out.println(getCounter());
-*/
+
 
         List<String> lista = new ArrayList<>();
         lista.add("ala");
@@ -74,13 +78,13 @@ public class Generator {
 
         System.out.println(usun(lista, "ma"));
         System.out.println(usun(lista, "ma"));
+*/
 
-
-//        System.out.println(fill(new ArrayList<String>()));
-//        System.out.println(fill(new LinkedList<String>()));
-//        System.out.println(fill(new HashSet<String>()));
-//        System.out.println(fill(new LinkedHashSet<String>()));
-//        System.out.println(fill(new TreeSet<String>()));
+        System.out.println(fill(new ArrayList<String>()));
+        System.out.println(fill(new LinkedList<String>()));
+        System.out.println(fill(new HashSet<String>()));
+        System.out.println(fill(new LinkedHashSet<String>()));
+        System.out.println(fill(new TreeSet<String>()));
 
 
     }

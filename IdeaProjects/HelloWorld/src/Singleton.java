@@ -8,6 +8,7 @@ public class Singleton {
     private  Singleton() { }
 
     public static Singleton getInstance () {
+        System.out.println("utworzono");
         return singleton;
 
     }

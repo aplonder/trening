@@ -15,7 +15,14 @@ public class FreshJuiceTest {
         juice.size = FreshJuice.FreshJuiceSize.MEDIUM;
         System.out.println("Size: " + juice.size);
 
+        Puppy fad = new Puppy("imie");
 
+        ClassicSingleton.getInstance();
+        ClassicSingleton.getInstance();
+        ClassicSingleton.getInstance();
+        Singleton.getInstance();
+        Singleton.getInstance();
+        Singleton.getInstance();
     }
 
 }

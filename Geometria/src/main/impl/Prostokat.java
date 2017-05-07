@@ -6,13 +6,25 @@ import main.Figura;
 
 public class Prostokat implements Figura {
 
-    double a;
-    double b;
-    double pole;
+    private double a;
+    private double b;
+    private double pole =0;
 
     public Prostokat (int a, int b) {
         this.a = a;
         this.b = b;
+    }
+
+    public double getA() {
+        return a;
+    }
+
+    public double getB() {
+        return b;
+    }
+
+    public double getPole() {
+        return pole;
     }
 
     @Override
@@ -23,8 +35,7 @@ public class Prostokat implements Figura {
         Prostokat prostokat = (Prostokat) o;
 
         if (Double.compare(prostokat.a, a) != 0) return false;
-        if (Double.compare(prostokat.b, b) != 0) return false;
-        return Double.compare(prostokat.pole, pole) == 0;
+        return (Double.compare(prostokat.b, b) != 0);
     }
 /*
     @Override
@@ -42,7 +53,8 @@ public class Prostokat implements Figura {
 */
     @Override
     public double obliczPole() {
-        pole = a*b;
+       if(pole==0)
+           pole = a*b;
         return pole;
     }
 }

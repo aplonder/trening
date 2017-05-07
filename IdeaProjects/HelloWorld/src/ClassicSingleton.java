@@ -16,4 +16,16 @@ public class ClassicSingleton {
         return instance;
 
     }
+
+    public static void main(String[] args) {
+
+    ClassicSingleton pierwszy = new ClassicSingleton();
+    ClassicSingleton drugi = new ClassicSingleton();
+
+
+
+
+
+    }
+
 }
