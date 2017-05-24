@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f193edb1-c0ae-4bfe-8b04-e4ded60e3205" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Biblioteka/Biblioteka.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Biblioteka/JdbcTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Biblioteka/model/Czytelnik.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Biblioteka/model/Ksiazka.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Biblioteka/model/Wypozyczenie.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Warehouse/src/main/java/andre/example/Library.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/biblioteka.db" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../Kolekcjoner.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/Bagazowy.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/out/production/Wypozyczalnia/Ciezarowy.class" afterPath="" />
@@ -25,21 +21,14 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/src/Wypozyczalnia.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../out/production/Kolekcjoner/Skoczek.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../src/Skoczek.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/ClassicSingleton.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/ClassicSingleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/FreshJuiceTest.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/FreshJuiceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/Singleton.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Singleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Kolekcjoner/out/production/Kolekcjoner/Generator.class" afterPath="$PROJECT_DIR$/../../Kolekcjoner/out/production/Kolekcjoner/Generator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Geometria/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Geometria/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Geometria/src/main/impl/Prostokat.java" afterPath="$PROJECT_DIR$/../../Geometria/src/main/impl/Prostokat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HelloWorld/Biblioteka/JdbcTest.class" afterPath="$PROJECT_DIR$/out/production/HelloWorld/Biblioteka/JdbcTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWorld.iml" afterPath="$PROJECT_DIR$/HelloWorld.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ClassicSingleton.java" afterPath="$PROJECT_DIR$/src/ClassicSingleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FreshJuiceTest.java" afterPath="$PROJECT_DIR$/src/FreshJuiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Singleton.java" afterPath="$PROJECT_DIR$/src/Singleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Kolekcjoner/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Kolekcjoner/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Kolekcjoner/src/Generator.java" afterPath="$PROJECT_DIR$/../../Kolekcjoner/src/Generator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Wypozyczalnia/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Wypozyczalnia/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Biblioteka/JdbcTest.java" afterPath="$PROJECT_DIR$/src/Biblioteka/JdbcTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Warehouse/pom.xml" afterPath="$PROJECT_DIR$/../../Warehouse/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Warehouse/src/main/java/andre/example/AppController.java" afterPath="$PROJECT_DIR$/../../Warehouse/src/main/java/andre/example/AppController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Warehouse/src/main/java/andre/example/Book.java" afterPath="$PROJECT_DIR$/../../Warehouse/src/main/java/andre/example/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Warehouse/src/main/java/andre/example/DemoApplication.java" afterPath="$PROJECT_DIR$/../../Warehouse/src/main/java/andre/example/DemoApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Warehouse/src/main/java/andre/example/Reader.java" afterPath="$PROJECT_DIR$/../../Warehouse/src/main/java/andre/example/Reader.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +47,7 @@
       <file leaf-file-name="Ksiazka.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Biblioteka/model/Ksiazka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="200">
               <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding />
             </state>
@@ -68,7 +57,7 @@
       <file leaf-file-name="Czytelnik.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Biblioteka/model/Czytelnik.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
+            <state relative-caret-position="280">
               <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
@@ -97,12 +86,13 @@
       <file leaf-file-name="Biblioteka.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Biblioteka/Biblioteka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+            <state relative-caret-position="518">
+              <caret line="78" column="55" lean-forward="false" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3628#3639#0" expanded="true" />
-                <element signature="e#4356#4365#0" expanded="true" />
+                <element signature="method#insertCzytelnik#0;class#Biblioteka#0" expanded="false" />
+                <element signature="method#insertWypozycz#0;class#Biblioteka#0" expanded="false" />
+                <element signature="method#selectCzytelnicy#0;class#Biblioteka#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -111,8 +101,8 @@
       <file leaf-file-name="JdbcTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Biblioteka/JdbcTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="320">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/Biblioteka/model/Czytelnik.java" />
         <option value="$PROJECT_DIR$/src/Biblioteka/model/Ksiazka.java" />
         <option value="$PROJECT_DIR$/src/Biblioteka/Biblioteka.java" />
+        <option value="$PROJECT_DIR$/src/Biblioteka/JdbcTest.java" />
       </list>
     </option>
   </component>
@@ -195,8 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -290,6 +279,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -669,19 +660,18 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33620688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33620688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12364563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19311664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -693,8 +683,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286638" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1010,18 +1001,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/biblioteka.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="961" lean-forward="true" selection-start-line="0" selection-start-column="961" selection-end-line="0" selection-end-column="961" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/biblioteka.db" />
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,13 +1037,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Biblioteka/model/Ksiazka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="200">
           <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
@@ -1068,7 +1050,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Biblioteka/model/Czytelnik.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="280">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
@@ -1076,8 +1058,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Biblioteka/JdbcTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="320">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1086,12 +1068,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Biblioteka/Biblioteka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        <state relative-caret-position="518">
+          <caret line="78" column="55" lean-forward="false" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3628#3639#0" expanded="true" />
-            <element signature="e#4356#4365#0" expanded="true" />
+            <element signature="method#insertCzytelnik#0;class#Biblioteka#0" expanded="false" />
+            <element signature="method#insertWypozycz#0;class#Biblioteka#0" expanded="false" />
+            <element signature="method#selectCzytelnicy#0;class#Biblioteka#0" expanded="false" />
           </folding>
         </state>
       </provider>

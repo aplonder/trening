@@ -8,9 +8,11 @@ import java.util.List;
 /**
  * Created by andrew on 05.05.17.
  */
+
 public class JdbcTest {
     public static void main(String[] args) {
-        Biblioteka b = new Biblioteka();
+ /*       Biblioteka b = new Biblioteka();
+        Biblioteka a = new Biblioteka();
         b.insertCzytelnik("Karol", "Maciaszek", "92873847182");
         b.insertCzytelnik("Piotr", "Wojtecki", "89273849128");
         b.insertCzytelnik("Abdul", "Dabdul", "");
@@ -31,5 +33,5 @@ public class JdbcTest {
             System.out.println(k);
 
         b.closeConnection();
-    }
+   */ }
 }
