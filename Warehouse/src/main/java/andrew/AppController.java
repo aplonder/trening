@@ -27,6 +27,20 @@ public class AppController {
         return new ResponseEntity<>(books, HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/book/{id}", method = RequestMethod.GET, produces = "application/json")
+    public ResponseEntity<Book> findById(@PathVariable(value = "id") Long id) {
+        Book book =this.jdbcTemplate.queryForObject(
+                "SELECT id, bookTitle, author FROM book WHERE id=?",
+                new Object[] {id},
+                (rs, rowNum) -> new Book(
+                        rs.getLong("id"),
+                        rs.getString("bookTitle"),
+                        rs.getString("author"))
+        );
+        return new ResponseEntity<>(book,HttpStatus.OK);
+    }
+    
+
     /*
     @RequestMapping(value = "/book/{id}", method = RequestMethod.GET, produces = "application/json")
     public ResponseEntity<Book> findById(@PathVariable(value = "id") Long id) {
