@@ -1,13 +1,18 @@
 package andrew;
 
+import java.io.Serializable;
+
 /**
  * Created by andrew on 06.05.17.
  */
 
-public class Book {
+public class Book implements Serializable{
     private Long id;
     private String bookTitle;
     private String author;
+
+    public Book() {
+    }
 
     public Book(Long id, String bookTitle, String author) {
         this.id = id;
