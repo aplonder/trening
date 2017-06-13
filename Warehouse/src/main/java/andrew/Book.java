@@ -26,12 +26,14 @@ public class Book implements Serializable {
     public void setBookId(Long bookId) {
         this.bookId = bookId;
     }
+
     public String getBookTitle() {
         return bookTitle;
     }
     public void setBookTitle(String bookTitle) {
         this.bookTitle = bookTitle;
     }
+
     public String getAuthor() {
         return author;
     }

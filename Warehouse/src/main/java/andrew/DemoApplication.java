@@ -25,8 +25,12 @@ public class DemoApplication implements CommandLineRunner {
 	public void run(String[] strings) throws Exception {
 
 		jdbcTemplate.execute("DROP TABLE BOOK IF EXISTS");
-		jdbcTemplate.execute("CREATE TABLE BOOK(" +
-				"bookId SERIAL, bookTitle VARCHAR(255), author VARCHAR(255))");
+		jdbcTemplate.execute("CREATE TABLE BOOK(" + "bookId SERIAL, bookTitle VARCHAR(255), author VARCHAR(255))");
+		jdbcTemplate.execute("DROP TABLE AUTHOR IF EXISTS");
+		jdbcTemplate.execute("CREATE TABLE AUTHOR(" +
+				"authorId SERIAL, authorFirstName VARCHAR(255), authorLastName VARCHAR(255)," +
+				"authorDateOfBirth DATE, authorBiography VARCHAR(255))");
+
 
 		// Split up the array of whole names into an array of first/last names
 		List<Object[]> splitUpNames = Arrays.asList("Book1 Author1", "Book2 Author2", "Book3 Author3").stream()

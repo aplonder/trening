@@ -41,7 +41,7 @@ public class BookController {
                         rs.getString("bookTitle"),
                         rs.getString("author"))
                 );
-                return new ResponseEntity<>(book,HttpStatus.OK);
+                return new ResponseEntity<>(book, HttpStatus.OK);
 
     }
 
@@ -50,7 +50,7 @@ public class BookController {
         Object[] object = new Object[]{book.getBookTitle(), book.getAuthor()};
         jdbcTemplate.update(
                 "INSERT INTO book (bookTitle, author) VALUES (?,?)", object);
-        return new ResponseEntity<>(book,HttpStatus.OK);
+        return new ResponseEntity<>(book, HttpStatus.OK);
     }
 
     @RequestMapping(value = "/book/{bookId}", method = RequestMethod.PUT, produces = "application/json")
