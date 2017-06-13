@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-public class AppController {
+public class BookController {
 
     @Autowired
     JdbcTemplate jdbcTemplate;
@@ -21,23 +21,23 @@ public class AppController {
     @RequestMapping(value = "/book", method = RequestMethod.GET, produces = "application/json")
     public ResponseEntity<List<Book>> findAll() {
         List<Book> books = jdbcTemplate.query(
-                "SELECT id, bookTitle, author FROM book",
+                "SELECT bookId, bookTitle, author FROM book",
                 new Object[] {},
                 (rs, rowNum) -> new Book(
-                        rs.getLong("id"),
+                        rs.getLong("bookId"),
                         rs.getString("bookTitle"),
                         rs.getString("author"))
         );
         return new ResponseEntity<>(books, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "/book/{id}", method = RequestMethod.GET, produces = "application/json")
-    public ResponseEntity<Book> findById(@PathVariable(value = "id") Long id) {
+    @RequestMapping(value = "/book/{bookId}", method = RequestMethod.GET, produces = "application/json")
+    public ResponseEntity<Book> findByBookId(@PathVariable(value = "bookId") Long bookId) {
             Book book =this.jdbcTemplate.queryForObject(
-                "SELECT id, bookTitle, author FROM book WHERE id=?",
-                new Object[] {id},
+                "SELECT bookId, bookTitle, author FROM book WHERE bookId=?",
+                new Object[] {bookId},
                 (rs, rowNum) -> new Book(
-                        rs.getLong("id"),
+                        rs.getLong("BookId"),
                         rs.getString("bookTitle"),
                         rs.getString("author"))
                 );
@@ -53,34 +53,21 @@ public class AppController {
         return new ResponseEntity<>(book,HttpStatus.OK);
     }
 
-    @RequestMapping(value = "/book/{id}", method = RequestMethod.PUT, produces = "application/json")
-    public ResponseEntity<Book> edit(@PathVariable(value = "id") Long id, @RequestBody Book book) {
-        Object[] object = new Object[]{book.getBookTitle(), book.getAuthor(), id};
+    @RequestMapping(value = "/book/{bookId}", method = RequestMethod.PUT, produces = "application/json")
+    public ResponseEntity<Book> edit(@PathVariable(value = "bookId") Long bookId, @RequestBody Book book) {
+        Object[] object = new Object[]{book.getBookTitle(), book.getAuthor(), bookId};
         jdbcTemplate.update(
-                "UPDATE book SET bookTitle=?, author=? WHERE id=?", object);
+                "UPDATE book SET bookTitle=?, author=? WHERE bookId=?", object);
         return new ResponseEntity<>(book,HttpStatus.OK);
     }
 
-    @RequestMapping(value = "/book/{id}", method = RequestMethod.DELETE)
-    public ResponseEntity<Book> edit(@PathVariable(value = "id") Long id) {
-        Object[] object = new Object[]{id};
+    @RequestMapping(value = "/book/{bookId}", method = RequestMethod.DELETE)
+    public ResponseEntity<Book> edit(@PathVariable(value = "bookId") Long bookId) {
+        Object[] object = new Object[]{bookId};
         jdbcTemplate.update(
-                "DELETE FROM book WHERE id=?", object);
+                "DELETE FROM book WHERE bookId=?", object);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-
-
-
-    /*
-    @RequestMapping(value = "/book/{id}", method = RequestMethod.GET, produces = "application/json")
-    public ResponseEntity<Book> findById(@PathVariable(value = "id") Long id) {
-        return books.stream()
-                .filter(book -> book.getId().equals(id))
-                .findAny()
-                .map(book -> new ResponseEntity<>(book, HttpStatus.OK))
-                .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
-    }
-*/
 
     // TODO: findById - uzupelnic na podstawie findAll
     // TODO: add(@RequestBody Book book) { }-  method = RequestMethod.GET

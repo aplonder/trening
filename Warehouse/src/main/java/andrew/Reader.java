@@ -10,6 +10,9 @@ public class Reader {
     private String firstName;
     private String lastName;
 
+    public Reader() {
+    }
+
     public Reader(Long id, String nick, String firstName, String lastName) {
         this.id = id;
         this.nick = nick;
@@ -42,4 +45,13 @@ public class Reader {
         this.lastName = lastName;
     }
 
+    @Override
+    public String toString() {
+        return "Reader{" +
+                "id=" + id +
+                ", nick='" + nick + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 }

@@ -6,25 +6,25 @@ import java.io.Serializable;
  * Created by andrew on 06.05.17.
  */
 
-public class Book implements Serializable{
-    private Long id;
+public class Book implements Serializable {
+    private Long bookId;
     private String bookTitle;
     private String author;
 
     public Book() {
     }
 
-    public Book(Long id, String bookTitle, String author) {
-        this.id = id;
+    public Book(Long bookId, String bookTitle, String author) {
+        this.bookId = bookId;
         this.bookTitle = bookTitle;
         this.author = author;
     }
 
-    public Long getId() {
-        return id;
+    public Long getBookId() {
+        return bookId;
     }
-    public void setId(Long id) {
-        this.id = id;
+    public void setBookId(Long bookId) {
+        this.bookId = bookId;
     }
     public String getBookTitle() {
         return bookTitle;
@@ -39,4 +39,12 @@ public class Book implements Serializable{
         this.author = author;
     }
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookId=" + bookId +
+                ", bookTitle='" + bookTitle + '\'' +
+                ", author='" + author + '\'' +
+                '}';
+    }
 }

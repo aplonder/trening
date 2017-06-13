@@ -26,7 +26,7 @@ public class DemoApplication implements CommandLineRunner {
 
 		jdbcTemplate.execute("DROP TABLE BOOK IF EXISTS");
 		jdbcTemplate.execute("CREATE TABLE BOOK(" +
-				"id SERIAL, bookTitle VARCHAR(255), author VARCHAR(255))");
+				"bookId SERIAL, bookTitle VARCHAR(255), author VARCHAR(255))");
 
 		// Split up the array of whole names into an array of first/last names
 		List<Object[]> splitUpNames = Arrays.asList("Book1 Author1", "Book2 Author2", "Book3 Author3").stream()
