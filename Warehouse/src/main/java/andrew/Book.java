@@ -9,12 +9,12 @@ import java.io.Serializable;
 public class Book implements Serializable {
     private Long bookId;
     private String bookTitle;
-    private String author;
+    private Author author;
 
     public Book() {
     }
 
-    public Book(Long bookId, String bookTitle, String author) {
+    public Book(Long bookId, String bookTitle, Author author) {
         this.bookId = bookId;
         this.bookTitle = bookTitle;
         this.author = author;
@@ -34,10 +34,10 @@ public class Book implements Serializable {
         this.bookTitle = bookTitle;
     }
 
-    public String getAuthor() {
+    public Author getAuthor() {
         return author;
     }
-    public void setAuthor(String author) {
+    public void setAuthor(Author author) {
         this.author = author;
     }
 

@@ -21,12 +21,18 @@ public class BookController {
     @RequestMapping(value = "/book", method = RequestMethod.GET, produces = "application/json")
     public ResponseEntity<List<Book>> findAll() {
         List<Book> books = jdbcTemplate.query(
-                "SELECT bookId, bookTitle, author FROM book",
+                "SELECT bookId, bookTitle, author.authorId, author.authorFirstName, " +
+                        "author.authorLastName, author.authorDateOfBirth, author.authorBiography FROM book" +
+                        " INNER JOIN author ON book.authorId=author.authorId",
                 new Object[] {},
                 (rs, rowNum) -> new Book(
                         rs.getLong("bookId"),
                         rs.getString("bookTitle"),
-                        rs.getString("author"))
+                        new Author(rs.getLong("author.authorId"),
+                                rs.getString("author.authorFirstName"),
+                                rs.getString("author.authorLastName"),
+                                rs.getDate("author.authorDateOfBirth"),
+                                rs.getString("author.authorBiography")))
         );
         return new ResponseEntity<>(books, HttpStatus.OK);
     }
@@ -34,30 +40,36 @@ public class BookController {
     @RequestMapping(value = "/book/{bookId}", method = RequestMethod.GET, produces = "application/json")
     public ResponseEntity<Book> findByBookId(@PathVariable(value = "bookId") Long bookId) {
             Book book =this.jdbcTemplate.queryForObject(
-                "SELECT bookId, bookTitle, author FROM book WHERE bookId=?",
+                "SELECT bookId, bookTitle, author.authorId, author.authorFirstName, " +
+                        "author.authorLastName, author.authorDateOfBirth, author.authorBiography FROM book" +
+                        " INNER JOIN author ON book.authorId=author.authorId WHERE bookId=?",
                 new Object[] {bookId},
                 (rs, rowNum) -> new Book(
                         rs.getLong("BookId"),
                         rs.getString("bookTitle"),
-                        rs.getString("author"))
-                );
+                        new Author(rs.getLong("author.authorId"),
+                                rs.getString("author.authorFirstName"),
+                                rs.getString("author.authorLastName"),
+                                rs.getDate("author.authorDateOfBirth"),
+                                rs.getString("author.authorBiography")))
+            );
                 return new ResponseEntity<>(book, HttpStatus.OK);
 
     }
 
     @RequestMapping(value = "/book", method = RequestMethod.POST, produces = "application/json")
     public ResponseEntity<Book> add(@RequestBody Book book) {
-        Object[] object = new Object[]{book.getBookTitle(), book.getAuthor()};
+        Object[] object = new Object[]{book.getBookTitle(), book.getAuthor().getAuthorId()};
         jdbcTemplate.update(
-                "INSERT INTO book (bookTitle, author) VALUES (?,?)", object);
+                "INSERT INTO book (bookTitle, authorId) VALUES (?,?)", object);
         return new ResponseEntity<>(book, HttpStatus.OK);
     }
 
     @RequestMapping(value = "/book/{bookId}", method = RequestMethod.PUT, produces = "application/json")
     public ResponseEntity<Book> edit(@PathVariable(value = "bookId") Long bookId, @RequestBody Book book) {
-        Object[] object = new Object[]{book.getBookTitle(), book.getAuthor(), bookId};
+        Object[] object = new Object[]{book.getBookTitle(), book.getAuthor().getAuthorId(), bookId};
         jdbcTemplate.update(
-                "UPDATE book SET bookTitle=?, author=? WHERE bookId=?", object);
+                "UPDATE book SET bookTitle=?, authorId=? WHERE bookId=?", object);
         return new ResponseEntity<>(book,HttpStatus.OK);
     }
 
