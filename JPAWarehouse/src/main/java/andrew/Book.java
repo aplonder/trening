@@ -1,6 +1,8 @@
-package com.example.demo.jpa;
+package andrew;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 
@@ -8,14 +10,14 @@ import java.io.Serializable;
 public class Book implements Serializable {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long bookId;
     private String bookTitle;
 
-    public Book() {
+    protected Book() {
     }
 
-    public Book(Long bookId, String bookTitle) {
-        this.bookId = bookId;
+    public Book(String bookTitle) {
         this.bookTitle = bookTitle;
     }
 
